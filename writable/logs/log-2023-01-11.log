@@ -1,0 +1,377 @@
+CRITICAL - 2023-01-11 01:11:04 --> Undefined array key "gradeId"
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getlist.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 27)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getlist', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(23): view('grade/getlist', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getlist()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 01:11:32 --> Undefined array key "gradeId"
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getlist.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 27)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getlist', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(23): view('grade/getlist', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getlist()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 01:20:47 --> Undefined array key "companyID"
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getlist.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 27)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getlist', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(20): view('grade/getlist', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getlist()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 01:20:51 --> Undefined array key "companyID"
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getlist.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 27)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getlist', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(20): view('grade/getlist', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getlist()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 01:54:51 --> Undefined variable $gradeID
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 94)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(27): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('13')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 02:03:22 --> Undefined variable $gradeID
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 94)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(27): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('16')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 02:03:54 --> Undefined array key "gradeID"
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 2)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(27): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('16')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 02:11:56 --> Undefined array key 0
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 2)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(27): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('16')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 02:29:46 --> Undefined variable $grade
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 2)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(29): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('16')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 02:30:14 --> Undefined variable $grade
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 90)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(29): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('16')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 02:30:24 --> Undefined array key "gradeID"
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 93)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(29): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('16')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 02:33:05 --> Attempt to read property "grade" on array
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 94)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(29): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('16')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 02:56:19 --> syntax error, unexpected token "public", expecting "," or ";"
+#0 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\SiteConf...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\SiteConf...')
+#3 D:\xampp\htdocs\bhghr\system\Config\Factories.php(136): class_exists('Config\\SiteConf...')
+#4 D:\xampp\htdocs\bhghr\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'SiteConfig')
+#5 D:\xampp\htdocs\bhghr\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#6 D:\xampp\htdocs\bhghr\app\Libraries\Api.php(52): config('SiteConfig')
+#7 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(26): App\Libraries\Api->getGradesDetails('16')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('16')
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#10 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-11 04:38:32 --> Undefined variable $getApprovalMatrixList
+#0 D:\xampp\htdocs\bhghr\app\Views\hrmsapprovals\list.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 14)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('hrmsapprovals/l...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(35): view('hrmsapprovals/l...')
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->approvals_master()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 04:48:43 --> Undefined variable $getApprovalMasterList
+#0 D:\xampp\htdocs\bhghr\app\Views\hrmsapprovals\search.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 119)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('hrmsapprovals/s...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(74): view('hrmsapprovals/s...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->approval_select()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 04:59:55 --> Cannot access offset of type string on string
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(36): App\Libraries\Api->getApprovalList()
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->approval_select()
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-11 05:02:19 --> Undefined variable $getApprovalMasterList
+#0 D:\xampp\htdocs\bhghr\app\Views\hrmsapprovals\search.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 119)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('hrmsapprovals/s...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(54): view('hrmsapprovals/s...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->approval_select()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 05:14:13 --> Undefined constant "App\Controllers\ata"
+#0 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('16')
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-11 05:14:26 --> Undefined constant "App\Controllers\ata"
+#0 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('16')
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-11 05:16:49 --> Undefined array key "getApprovalMatrixList"
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 36)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('16')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-11 22:14:39 --> Undefined array key 0
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 28)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('4')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-11 22:26:06 --> Undefined variable $getApprovalMatrixVal
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 197)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(40): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('13')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 22:26:15 --> Undefined variable $getApprovalMatrixVal
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 197)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(40): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('13')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 22:29:50 --> Undefined array key "levelId"
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 73)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->update_approvals()
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-11 23:28:49 --> Attempt to read property "companyId" on array
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 208)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(40): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('13')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 23:28:51 --> Attempt to read property "companyId" on array
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 208)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(40): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('13')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 23:29:10 --> Attempt to read property "companyid" on array
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 208)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(40): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('13')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 23:29:17 --> Attempt to read property "companyID" on array
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 208)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(40): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('13')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 23:29:26 --> Attempt to read property "grade" on array
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 209)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(40): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('13')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 23:41:40 --> Undefined property: stdClass::$levelId
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getDetails.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 211)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getDetail...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(40): view('grade/getDetail...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getGradeDetails('13')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 23:46:00 --> Undefined array key "manageApprovalMatrix"
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 84)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->update_approvals()
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-11 23:50:10 --> syntax error, unexpected double-quoted string "^"
+#0 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-11 23:50:59 --> syntax error, unexpected single-quoted string "^"
+#0 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-11 23:52:26 --> syntax error, unexpected double-quoted string "^"
+#0 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-11 23:54:02 --> syntax error, unexpected double-quoted string "#"
+#0 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-11 23:54:56 --> syntax error, unexpected variable "$symbol"
+#0 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-11 23:55:22 --> syntax error, unexpected token "^"
+#0 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-11 23:55:28 --> syntax error, unexpected variable "$symbol"
+#0 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

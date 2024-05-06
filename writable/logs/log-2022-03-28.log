@@ -1,0 +1,7 @@
+CRITICAL - 2022-03-28 05:56:23 --> Undefined array key "departmentName"
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Hrms.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 382)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Hrms->edit_position('21')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrms))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,16 @@
+CRITICAL - 2022-08-16 00:52:51 --> syntax error, unexpected token ")"
+#0 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobsapplication...', Array, true)
+#2 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(51): view('jobsapplication...', Array)
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->applications()
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-16 23:42:41 --> Undefined array key "gradeID"
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(503): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 503)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->positions_data()
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

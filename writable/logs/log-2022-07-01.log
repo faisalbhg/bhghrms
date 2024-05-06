@@ -1,0 +1,36 @@
+CRITICAL - 2022-07-01 07:12:20 --> Undefined variable $departmentId
+#0 D:\xampp\htdocs\bhghr\app\Views\jobs\create_job.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 155)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/create_job', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(447): view('jobs/create_job', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->create_job()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 07:15:18 --> Undefined array key "companyId"
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 349)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->create_job()
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 07:18:05 --> Undefined array key "companyId"
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 349)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->create_job()
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 08:07:08 --> Undefined variable $departmentId
+#0 D:\xampp\htdocs\bhghr\app\Views\general\position_select.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 20)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('general/positio...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Hrms.php(538): view('general/positio...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Hrms->get_position_grade()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrms))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

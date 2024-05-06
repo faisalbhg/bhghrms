@@ -1,0 +1,24 @@
+CRITICAL - 2022-03-22 00:44:25 --> Undefined variable $message
+#0 D:\xampp\htdocs\bhghr\app\Libraries\Emailsend.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 63)
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(180): App\Libraries\Emailsend->send_mail('moath.zaghlol@b...', 'Moath Zaghlol', 'moath@buhaleeba...', 'ali ali ', 'moath.zaghlol@b...', '', 'Job Interiew Sc...', Array, '')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->schedule_interview('13')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-22 00:47:01 --> Undefined variable $message
+#0 D:\xampp\htdocs\bhghr\app\Libraries\Emailsend.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 63)
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(180): App\Libraries\Emailsend->send_mail('moath.zaghlol@b...', 'Moath Zaghlol', 'moath@buhaleeba...', 'ali ali ', 'moath.zaghlol@b...', '', 'Job Interiew Sc...', Array, '')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->schedule_interview('13')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-22 00:49:13 --> Undefined variable $message
+#0 D:\xampp\htdocs\bhghr\app\Libraries\Emailsend.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 63)
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(180): App\Libraries\Emailsend->send_mail('faisal@buhaleeb...', 'Muhammad Faisal', 'moath@buhaleeba...', 'ali ali ', 'faisal@buhaleeb...', '', 'Job Interiew Sc...', Array, '')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->schedule_interview('13')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

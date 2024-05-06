@@ -1,0 +1,80 @@
+CRITICAL - 2022-04-01 03:14:52 --> Unclosed '{' on line 118
+#0 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobsapplication...', Array, true)
+#2 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(67): view('jobsapplication...', Array)
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->proposal_applications()
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 03:15:11 --> Unclosed '{' on line 118
+#0 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobsapplication...', Array, true)
+#2 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(67): view('jobsapplication...', Array)
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->proposal_applications()
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 03:15:17 --> Unclosed '{' on line 118
+#0 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobsapplication...', Array, true)
+#2 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(67): view('jobsapplication...', Array)
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->proposal_applications()
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 03:18:54 --> Undefined array key "createJobOffer"
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(471): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 471)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '1')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 03:18:56 --> Undefined array key "createJobOffer"
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(471): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 471)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '1')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 03:20:12 --> Trying to access array offset on value of type null
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(476): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\xampp\\htdocs...', 476)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '1')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 03:21:01 --> Trying to access array offset on value of type null
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(476): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\xampp\\htdocs...', 476)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '1')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 03:21:47 --> Trying to access array offset on value of type null
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(476): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\xampp\\htdocs...', 476)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '1')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 06:35:52 --> Invalid file: jobsapplication/categorizeJobDetails.php
+#0 D:\xampp\htdocs\bhghr\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jobsapplication...')
+#1 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobsapplication...', Array, true)
+#2 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(138): view('jobsapplication...', Array)
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->categorize_application('36')
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-01 06:36:01 --> Invalid file: jobsapplication/categorizeJobDetails.php
+#0 D:\xampp\htdocs\bhghr\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jobsapplication...')
+#1 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobsapplication...', Array, true)
+#2 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(138): view('jobsapplication...', Array)
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->categorize_application('36')
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

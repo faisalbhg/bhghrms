@@ -1,0 +1,18 @@
+CRITICAL - 2022-07-28 01:01:05 --> Cannot redeclare getIndianCurrency() (previously declared in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php:370)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-28 01:07:11 --> Cannot redeclare getIndianCurrency() (previously declared in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php:370)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-28 01:13:48 --> Cannot redeclare getIndianCurrency() (previously declared in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php:370)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-28 01:14:30 --> Cannot redeclare getIndianCurrency() (previously declared in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php:370)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-28 01:15:06 --> Cannot redeclare getIndianCurrency() (previously declared in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php:370)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-28 01:16:56 --> Cannot redeclare getIndianCurrency() (previously declared in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php:370)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

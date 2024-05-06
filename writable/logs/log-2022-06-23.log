@@ -1,0 +1,26 @@
+CRITICAL - 2022-06-23 05:06:42 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 215)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobsapplication\viewProposalAfterUpdate.php(215): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobsapplication\viewProposalAfterUpdate.php(191): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobsapplication...', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(98): view('jobsapplication...', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->proposal_view('9')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-23 05:07:12 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 215)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobsapplication\viewProposalAfterUpdate.php(215): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobsapplication\viewProposalAfterUpdate.php(191): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobsapplication...', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(98): view('jobsapplication...', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->proposal_view('9')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

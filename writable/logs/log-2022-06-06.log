@@ -1,0 +1,66 @@
+CRITICAL - 2022-06-06 01:07:39 --> getIndianCurrency(): Argument #1 ($number) must be of type float, string given, called in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php on line 107
+#0 D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php(107): getIndianCurrency('1.300,00')
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('users/offerlett...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(524): view('users/offerlett...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->get_model_offer()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 01:07:42 --> getIndianCurrency(): Argument #1 ($number) must be of type float, string given, called in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php on line 107
+#0 D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php(107): getIndianCurrency('1.300,00')
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('users/offerlett...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(572): view('users/offerlett...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '154', '6')
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 03:23:47 --> getIndianCurrency(): Argument #1 ($number) must be of type float, string given, called in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php on line 107
+#0 D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php(107): getIndianCurrency('1.200,00')
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('users/offerlett...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(524): view('users/offerlett...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->get_model_offer()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 03:23:56 --> getIndianCurrency(): Argument #1 ($number) must be of type float, string given, called in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php on line 107
+#0 D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php(107): getIndianCurrency('1.200,00')
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('users/offerlett...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(524): view('users/offerlett...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->get_model_offer()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 03:24:52 --> getIndianCurrency(): Argument #1 ($number) must be of type float, string given, called in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php on line 107
+#0 D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php(107): getIndianCurrency('1.200,00')
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('users/offerlett...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(524): view('users/offerlett...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->get_model_offer()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 03:26:08 --> getIndianCurrency(): Argument #1 ($number) must be of type float, string given, called in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php on line 121
+#0 D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php(121): getIndianCurrency('2.000,00')
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('users/offerlett...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(524): view('users/offerlett...', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->get_model_offer()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

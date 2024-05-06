@@ -1,0 +1,286 @@
+CRITICAL - 2022-07-05 01:16:21 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 302)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(302): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(278): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/view', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(163): view('jobs/view', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->view('18')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 01:56:06 --> Cannot modify header information - headers already sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\xampp\\htdocs...', 743)
+#1 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(743): setcookie('csrf_cookie_nam...', '926e646da3706e2...', Array)
+#2 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(719): CodeIgniter\HTTP\Response->doSetCookie('csrf_cookie_nam...', '926e646da3706e2...', Array)
+#3 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(699): CodeIgniter\HTTP\Response->dispatchCookies()
+#4 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(443): CodeIgniter\HTTP\Response->sendCookies()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(998): CodeIgniter\HTTP\Response->send()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(458): CodeIgniter\CodeIgniter->sendResponse()
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-05 01:56:06 --> Uncaught ErrorException: Cannot modify header information - headers already sent in D:\xampp\htdocs\bhghr\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\xampp\\htdocs...', 112)
+#1 D:\xampp\htdocs\bhghr\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-05 01:56:11 --> Cannot modify header information - headers already sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\xampp\\htdocs...', 743)
+#1 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(743): setcookie('csrf_cookie_nam...', '13c8234b9690cb5...', Array)
+#2 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(719): CodeIgniter\HTTP\Response->doSetCookie('csrf_cookie_nam...', '13c8234b9690cb5...', Array)
+#3 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(699): CodeIgniter\HTTP\Response->dispatchCookies()
+#4 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(443): CodeIgniter\HTTP\Response->sendCookies()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(998): CodeIgniter\HTTP\Response->send()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(458): CodeIgniter\CodeIgniter->sendResponse()
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-05 01:56:11 --> Uncaught ErrorException: Cannot modify header information - headers already sent in D:\xampp\htdocs\bhghr\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\xampp\\htdocs...', 112)
+#1 D:\xampp\htdocs\bhghr\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-05 01:56:18 --> Cannot modify header information - headers already sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\xampp\\htdocs...', 743)
+#1 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(743): setcookie('csrf_cookie_nam...', '0f9d64679ba1408...', Array)
+#2 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(719): CodeIgniter\HTTP\Response->doSetCookie('csrf_cookie_nam...', '0f9d64679ba1408...', Array)
+#3 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(699): CodeIgniter\HTTP\Response->dispatchCookies()
+#4 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(443): CodeIgniter\HTTP\Response->sendCookies()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(998): CodeIgniter\HTTP\Response->send()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(458): CodeIgniter\CodeIgniter->sendResponse()
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-05 01:56:18 --> Uncaught ErrorException: Cannot modify header information - headers already sent in D:\xampp\htdocs\bhghr\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\xampp\\htdocs...', 112)
+#1 D:\xampp\htdocs\bhghr\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-05 02:05:59 --> Cannot modify header information - headers already sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\xampp\\htdocs...', 743)
+#1 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(743): setcookie('csrf_cookie_nam...', 'e1818d92df2d317...', Array)
+#2 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(719): CodeIgniter\HTTP\Response->doSetCookie('csrf_cookie_nam...', 'e1818d92df2d317...', Array)
+#3 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(699): CodeIgniter\HTTP\Response->dispatchCookies()
+#4 D:\xampp\htdocs\bhghr\system\HTTP\ResponseTrait.php(443): CodeIgniter\HTTP\Response->sendCookies()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(998): CodeIgniter\HTTP\Response->send()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(458): CodeIgniter\CodeIgniter->sendResponse()
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-05 02:05:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent in D:\xampp\htdocs\bhghr\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\xampp\\htdocs...', 112)
+#1 D:\xampp\htdocs\bhghr\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-05 04:30:32 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 302)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(302): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(278): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/view', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(163): view('jobs/view', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->view('18')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 04:30:47 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 302)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(302): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(278): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/view', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(163): view('jobs/view', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->view('19')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 06:17:50 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 302)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(302): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(278): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/view', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(163): view('jobs/view', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->view('19')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 06:17:52 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 302)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(302): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(278): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/view', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(163): view('jobs/view', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->view('19')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 06:18:16 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 302)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(302): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(278): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/view', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(163): view('jobs/view', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->view('18')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 06:18:21 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 302)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(302): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(278): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/view', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(163): view('jobs/view', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->view('19')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 06:18:37 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 302)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(302): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(278): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/view', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(163): view('jobs/view', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->view('18')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 06:18:38 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 302)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(302): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(278): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/view', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(163): view('jobs/view', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->view('19')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 06:19:01 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 302)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(302): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(278): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/view', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(163): view('jobs/view', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->view('18')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 06:19:11 --> Wrong time format: ''
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(256, 'Wrong time form...', 'D:\\xampp\\htdocs...', 302)
+#1 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(302): trigger_error('Wrong time form...', 256)
+#2 D:\xampp\htdocs\bhghr\app\Views\jobs\view.php(278): timeago(NULL)
+#3 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/view', Array, true)
+#6 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(163): view('jobs/view', Array)
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->view('19')
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#9 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 06:20:41 --> syntax error, unexpected token "[", expecting variable or "{" or "$"
+#0 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('jobs/view', Array, true)
+#2 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(163): view('jobs/view', Array)
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->view('18')
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 23:44:01 --> The PHP GD extension is required, but is not installed.
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Adapter\CPDF.php(846): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Faisal...', 64.015748031496, 181.99419396325, 177, 132)
+#1 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('C:\\Users\\Faisal...', 64.015748031496, 527.89580603675, 177, 132, 'normal')
+#2 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(290): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(127): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#6 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#7 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\FrameReflower\Page.php(150): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#8 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Page->reflow(NULL)
+#9 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(820): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#10 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(637): Dompdf\Dompdf->render()
+#11 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#12 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#13 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-07-05 23:44:18 --> The PHP GD extension is required, but is not installed.
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Adapter\CPDF.php(846): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Faisal...', 64.015748031496, 181.99419396325, 177, 132)
+#1 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('C:\\Users\\Faisal...', 64.015748031496, 527.89580603675, 177, 132, 'normal')
+#2 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(290): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(127): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#6 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#7 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\FrameReflower\Page.php(150): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#8 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Page->reflow(NULL)
+#9 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(820): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#10 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(637): Dompdf\Dompdf->render()
+#11 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#12 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#13 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-07-05 23:44:28 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 260050944 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-05 23:47:21 --> The PHP GD extension is required, but is not installed.
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Adapter\CPDF.php(846): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Faisal...', 64.015748031496, 181.99419396325, 177, 132)
+#1 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('C:\\Users\\Faisal...', 64.015748031496, 527.89580603675, 177, 132, 'normal')
+#2 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(290): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(127): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#6 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#7 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\FrameReflower\Page.php(150): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#8 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Page->reflow(NULL)
+#9 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(820): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#10 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(637): Dompdf\Dompdf->render()
+#11 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#12 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#13 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}

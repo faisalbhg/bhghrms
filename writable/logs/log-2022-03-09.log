@@ -1,0 +1,91 @@
+CRITICAL - 2022-03-09 04:35:52 --> Undefined variable $companyName
+#0 D:\xampp\htdocs\bhghr\app\Views\emails\emailtemplate.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 164)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('emails/emailtem...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Libraries\Emailsend.php(54): view('emails/emailtem...', Array)
+#5 D:\xampp\htdocs\bhghr\app\Controllers\Jobs.php(278): App\Libraries\Emailsend->send_mail('moath.zaghlol@b...', 'Moath Zaghlol', 'moath.zaghlol@b...', 'CEO', '', '', 'New Vacancy App...', Array, '', 2)
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobs->create_job()
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobs))
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-09 04:40:27 --> Undefined variable $jobcreationResponse
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 319)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->proposal('10', '18')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 04:40:43 --> Undefined variable $jobcreationResponse
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 326)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->proposal('10', '18')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 04:41:01 --> Undefined variable $companyName
+#0 D:\xampp\htdocs\bhghr\app\Views\emails\emailtemplate.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 164)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('emails/emailtem...', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Libraries\Emailsend.php(54): view('emails/emailtem...', Array)
+#5 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(331): App\Libraries\Emailsend->send_mail('ceo@buhaleeba.a...', 'CEO', 'moath.zaghlol@b...', 'CEO', 'faisal@buhaleeb...', '', 'New Proposal Ap...', Array, '', 2)
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->proposal('10', '18')
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#8 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-09 04:44:14 --> Undefined array key 0
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Aprovals.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 128)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Aprovals->aproval_jobproposal_details('18')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aprovals))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 04:51:25 --> unlink(D:\xampp\htdocs\bhghr\writable\debugbar/debugbar_1646822230.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\xampp...', 'D:\\xampp\\htdocs...', 74)
+#1 D:\xampp\htdocs\bhghr\system\Debug\Toolbar\Collectors\History.php(74): unlink('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1646823084, 20)
+#3 D:\xampp\htdocs\bhghr\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 D:\xampp\htdocs\bhghr\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 D:\xampp\htdocs\bhghr\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-09 04:53:11 --> Undefined array key 0
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Aprovals.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 128)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Aprovals->aproval_jobproposal_details('19')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aprovals))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 04:53:51 --> Undefined array key 0
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Aprovals.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 128)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Aprovals->aproval_jobproposal_details('19')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aprovals))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 04:57:02 --> Undefined array key 0
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Aprovals.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 128)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Aprovals->aproval_jobproposal_details('19')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aprovals))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 05:02:08 --> Undefined variable $message
+#0 D:\xampp\htdocs\bhghr\app\Libraries\Emailsend.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 63)
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(180): App\Libraries\Emailsend->send_mail('saranya.c@buhal...', 'Saranya', 'hrd@buhaleeba.a...', 'Saranya', 'hrd@buhaleeba.a...', '', 'Job Interiew Sc...', Array, '')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->schedule_interview('11')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 05:04:59 --> Array to string conversion
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\xampp\\htdocs...', 509)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->save_proposal('11')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,85 @@
+CRITICAL - 2023-01-10 00:46:43 --> syntax error, unexpected token "if"
+#0 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\xampp\htdocs\bhghr\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 D:\xampp\htdocs\bhghr\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
+CRITICAL - 2023-01-10 00:46:51 --> syntax error, unexpected token "if"
+#0 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\xampp\htdocs\bhghr\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 D:\xampp\htdocs\bhghr\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
+CRITICAL - 2023-01-10 01:00:06 --> Undefined property: App\Libraries\Api::$api
+#0 D:\xampp\htdocs\bhghr\app\Libraries\Api.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 10)
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(11): App\Libraries\Api->getCompany()
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->list()
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-10 01:00:22 --> Undefined property: App\Libraries\Api::$api
+#0 D:\xampp\htdocs\bhghr\app\Libraries\Api.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 10)
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(11): App\Libraries\Api->getCompany()
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->list()
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-10 01:01:29 --> Invalid file: grade/list.php
+#0 D:\xampp\htdocs\bhghr\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('grade/list.php')
+#1 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/list', Array, true)
+#2 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(12): view('grade/list', Array)
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->list()
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-10 01:08:10 --> Invalid file: grades/list.php
+#0 D:\xampp\htdocs\bhghr\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('grades/list.php')
+#1 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grades/list', Array, true)
+#2 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(12): view('grades/list', Array)
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->list()
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-10 01:45:03 --> Undefined array key "companyId"
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\list.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 111)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/list', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(12): view('grade/list', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->list()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-10 05:07:28 --> Undefined array key "comapnyName"
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getlist.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 24)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getlist', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(23): view('grade/getlist', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getlist()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-10 05:07:33 --> Undefined array key "comapnyName"
+#0 D:\xampp\htdocs\bhghr\app\Views\grade\getlist.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 24)
+#1 D:\xampp\htdocs\bhghr\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\bhghr\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\bhghr\system\Common.php(1089): CodeIgniter\View\View->render('grade/getlist', Array, true)
+#4 D:\xampp\htdocs\bhghr\app\Controllers\Grade.php(23): view('grade/getlist', Array)
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getlist()
+#6 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#7 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-10 05:07:49 --> Call to undefined method App\Controllers\Grade::output_compressed_data()
+#0 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Grade->getlist()
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

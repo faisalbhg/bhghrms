@@ -1,0 +1,8 @@
+CRITICAL - 2022-06-12 23:43:04 --> file_get_contents(https://frenchbakery.cafe/wp-content/uploads/fb-header.jpg): Failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\xampp\\htdocs...', 526)
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(526): file_get_contents('https://frenchb...')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->get_model_offer()
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

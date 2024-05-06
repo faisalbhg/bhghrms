@@ -1,0 +1,198 @@
+CRITICAL - 2022-07-26 04:14:50 --> mb_convert_encoding(): Argument #3 ($from_encoding) contains invalid encoding "1"
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(463): mb_convert_encoding('<!-- DEBUG-VIEW...', 'UTF-8', '1')
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(638): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW...', true)
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('5', '647', '15')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 06:00:41 --> Undefined array key ""
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(551): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 551)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->get_model_offer()
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 06:08:24 --> mb_convert_encoding(): Argument #3 ($from_encoding) contains invalid encoding "1"
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(463): mb_convert_encoding('<!-- DEBUG-VIEW...', 'UTF-8', '1')
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(638): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW...', true)
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 06:10:32 --> mb_convert_encoding(): Argument #3 ($from_encoding) contains invalid encoding "1"
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(463): mb_convert_encoding('<!-- DEBUG-VIEW...', 'UTF-8', '1')
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(638): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW...', true)
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 06:11:02 --> mb_convert_encoding(): Argument #3 ($from_encoding) contains invalid encoding "1"
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(463): mb_convert_encoding('<!-- DEBUG-VIEW...', 'UTF-8', '1')
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(638): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW...', true)
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 06:17:46 --> mb_convert_encoding(): Argument #3 ($from_encoding) contains invalid encoding "1"
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(463): mb_convert_encoding('<!-- DEBUG-VIEW...', 'UTF-8', '1')
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(640): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW...', true)
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 06:20:44 --> mb_convert_encoding(): Argument #3 ($from_encoding) contains invalid encoding "1"
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(463): mb_convert_encoding('<!-- DEBUG-VIEW...', 'UTF-8', '1')
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(640): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW...', true)
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 06:25:37 --> mb_convert_encoding(): Argument #3 ($from_encoding) contains invalid encoding "1"
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(463): mb_convert_encoding('<!-- DEBUG-VIEW...', 'UTF-8', '1')
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(640): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW...', true)
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 06:38:23 --> Undefined array key ""
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(551): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 551)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->get_model_offer()
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 06:39:53 --> mb_convert_encoding(): Argument #3 ($from_encoding) contains invalid encoding "1"
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(463): mb_convert_encoding('<!-- DEBUG-VIEW...', 'UTF-8', '1')
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(640): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW...', true)
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 06:45:50 --> mb_convert_encoding(): Argument #3 ($from_encoding) contains invalid encoding "1"
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(463): mb_convert_encoding('<!-- DEBUG-VIEW...', 'UTF-8', '1')
+#1 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(640): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW...', true)
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 06:47:01 --> The PHP GD extension is required, but is not installed.
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Adapter\CPDF.php(846): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Faisal...', 36.265748031496, 738.53819396325, 522.74850393701, 67.086058005249)
+#1 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('C:\\Users\\Faisal...', 36.265748031496, 36.265748031496, 522.74850393701, 67.086058005249, 'normal')
+#2 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(290): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(127): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\FrameReflower\Page.php(150): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(820): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(642): Dompdf\Dompdf->render()
+#13 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#14 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#15 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-07-26 06:47:05 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 125833216 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-26 06:52:23 --> The PHP GD extension is required, but is not installed.
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Adapter\CPDF.php(846): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Faisal...', 36.265748031496, 738.53819396325, 522.74850393701, 67.086058005249)
+#1 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('C:\\Users\\Faisal...', 36.265748031496, 36.265748031496, 522.74850393701, 67.086058005249, 'normal')
+#2 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(290): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(127): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\FrameReflower\Page.php(150): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(820): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(642): Dompdf\Dompdf->render()
+#13 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#14 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#15 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-07-26 06:52:26 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 125833216 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-26 06:55:15 --> The PHP GD extension is required, but is not installed.
+#0 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Adapter\CPDF.php(846): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Faisal...', 36.265748031496, 738.53819396325, 522.74850393701, 67.086058005249)
+#1 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('C:\\Users\\Faisal...', 36.265748031496, 36.265748031496, 522.74850393701, 67.086058005249, 'normal')
+#2 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(290): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(127): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Renderer.php(194): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\FrameReflower\Page.php(150): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 D:\xampp\htdocs\bhghr\vendor\dompdf\dompdf\src\Dompdf.php(820): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(642): Dompdf\Dompdf->render()
+#13 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#14 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#15 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-07-26 06:55:17 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 125833216 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-26 06:58:04 --> syntax error, unexpected identifier "file_put_contents", expecting variable or "{" or "$"
+#0 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-26 06:58:50 --> syntax error, unexpected token "*"
+#0 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-26 06:59:08 --> syntax error, unexpected token "}", expecting variable or "{" or "$"
+#0 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-26 06:59:12 --> syntax error, unexpected token "}", expecting variable or "{" or "$"
+#0 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\bhghr\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-26 07:13:34 --> Undefined variable $filename
+#0 D:\xampp\htdocs\bhghr\app\Controllers\Jobapplications.php(626): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 626)
+#1 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(832): App\Controllers\Jobapplications->jobOfffer('2', '13', '2')
+#2 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jobapplications))
+#3 D:\xampp\htdocs\bhghr\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\bhghr\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 07:13:57 --> Cannot redeclare getIndianCurrency() (previously declared in D:\xampp\htdocs\bhghr\app\Views\users\offerletter.php:370)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
